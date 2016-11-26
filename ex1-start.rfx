@@ -962,7 +962,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="26" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="840" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="678" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="3" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1000,7 +1000,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-25/11/2016 12:0:4]]></RmTextDataBlock></RmStringVariable>
+26/11/2016 20:51:14]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1030,25 +1030,25 @@ out vec4 color;
 
 void main(void)
 {
-   color = vec4(normal, 1.0);
+   color = vec4(normal, 1);
 }
 ]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
 #version 150 compatibility
 
 uniform mat4 mvp;
+
 out vec3 normal;
 
 void main(void)
 {
+   normal = gl_Normal.xyz;
    gl_Position = mvp * gl_Vertex;
-   normal = gl_Normal;
 }
 ]]></RmShaderCode></RmGLShader>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
-    <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="0.840087" VALUE_1="1.267190" VALUE_2="-0.027087" VALUE_3="0.000011" VALUE_4="-1.270169" VALUE_5="0.881694" VALUE_6="1.854107" VALUE_7="-0.000350" VALUE_8="-0.647158" VALUE_9="0.415336" VALUE_10="-0.640848" VALUE_11="250.130035" VALUE_12="-0.646510" VALUE_13="0.414921" VALUE_14="-0.640207" VALUE_15="250.879913"/>
+    <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="-1.457267" VALUE_1="0.218783" VALUE_2="-0.375179" VALUE_3="0.000002" VALUE_4="-0.634518" VALUE_5="-0.256163" VALUE_6="2.315209" VALUE_7="0.000097" VALUE_8="-0.111911" VALUE_9="-0.984875" VALUE_10="-0.139641" VALUE_11="199.199112" VALUE_12="-0.111799" VALUE_13="-0.983891" VALUE_14="-0.139501" VALUE_15="199.999924"/>
     <RmShaderConstant NAME="mvp" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="objectColor" API="" REGISTER="-1"/>
    </RmGLPass>
   </RmOpenGLEffect>
  </RmEffectWorkspace>
