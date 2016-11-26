@@ -968,7 +968,7 @@
       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Vertex Program]]></RmTextDataBlock></RmStringVariable>
+Fragment Program]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 Outline]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="26" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1011,7 +1011,7 @@ Outline]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-26/11/2016 17:15:54]]></RmTextDataBlock></RmStringVariable>
+26/11/2016 18:29:9]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1022,7 +1022,7 @@ P:\workspace\RenderMonkey_shaders\]]></RmTextDataBlock></RmStringVariable>
    </RmRegistryBranch>
   </RmRegistryBranch>
   <RmOpenGLEffect NAME="Default_OpenGL_Effect" API="OpenGL" ACTIVE_CAMERA="">
-   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="-1.376347" VALUE_1="-0.065179" VALUE_2="-1.982384" VALUE_3="0.000000" VALUE_4="-0.599451" VALUE_5="2.313743" VALUE_6="0.340118" VALUE_7="0.002634" VALUE_8="-0.783940" VALUE_9="-0.284482" VALUE_10="0.553634" VALUE_11="152.437576" VALUE_12="-0.783156" VALUE_13="-0.284197" VALUE_14="0.553081" VALUE_15="153.285141"/>
+   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="-0.964463" VALUE_1="-0.102984" VALUE_2="-2.210799" VALUE_3="-4.871048" VALUE_4="0.112819" VALUE_5="2.406176" VALUE_6="-0.161302" VALUE_7="-2.781673" VALUE_8="-0.916461" VALUE_9="0.069555" VALUE_10="0.396567" VALUE_11="194.336121" VALUE_12="-0.915544" VALUE_13="0.069486" VALUE_14="0.396170" VALUE_15="195.141785"/>
    <Rm2DTextureVariable NAME="base" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\Coin.dds" ORIGIN="0"/>
    <RmRenderableTexture NAME="fbo0" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
    <RmStreamMap NAME="Stream Mapping" API="">
@@ -1042,19 +1042,20 @@ uniform mat4 mvp;
 
 uniform float outlineThinkness;
 
-out vec2 v_screenPosition;
-
 void main(void)
 {
-   gl_Position = mvp * (gl_Vertex + vec4(gl_Normal,1.0) * 0.5*(1+outlineThinkness));
-   v_screenPosition = vec2(gl_Vertex);
+   float S = 1+outlineThinkness;
+   gl_Position = mat4(
+      S, 0, 0, 0,
+      0, S, 0, 0,
+      0, 0, 1, 0,
+      0, 0, 0, 1
+   ) * mvp * (gl_Vertex);
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 #version 150 compatibility
 
 uniform vec4 outlineColor;
-
-in vec2 v_screenPosition;
 
 out vec4 color;
 
@@ -1065,11 +1066,8 @@ void main(void)
 ]]></RmShaderCode></RmGLShader>
     <RmRenderTarget NAME="fbo0" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
-    <RmFloatVariable NAME="outlineThinkness" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="-1.171500" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+    <RmFloatVariable NAME="outlineThinkness" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="0.120000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
     <RmColorVariable NAME="outlineColor" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE_0="0.956863" VALUE_1="0.326316" VALUE_2="0.136842" VALUE_3="1.000000"/>
-    <RmTextureObject NAME="previousFrame" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="fbo0" API=""/>
-    </RmTextureObject>
     <RmShaderConstant NAME="mvp" API="" REGISTER="-1"/>
     <RmShaderConstant NAME="outlineColor" API="" REGISTER="-1"/>
     <RmShaderConstant NAME="outlineThinkness" API="" REGISTER="-1"/>
