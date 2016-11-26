@@ -999,7 +999,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-26/11/2016 18:4:46]]></RmTextDataBlock></RmStringVariable>
+26/11/2016 18:7:31]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1010,10 +1010,11 @@ P:\workspace\RenderMonkey_shaders\]]></RmTextDataBlock></RmStringVariable>
    </RmRegistryBranch>
   </RmRegistryBranch>
   <RmOpenGLEffect NAME="Default_OpenGL_Effect" API="OpenGL" ACTIVE_CAMERA="">
-   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="-1.320935" VALUE_1="-0.109230" VALUE_2="-0.729751" VALUE_3="0.000012" VALUE_4="-0.445997" VALUE_5="2.327864" VALUE_6="0.458870" VALUE_7="0.000373" VALUE_8="-0.451782" VALUE_9="-0.255290" VALUE_10="0.855992" VALUE_11="150.975311" VALUE_12="-0.451331" VALUE_13="-0.255035" VALUE_14="0.855136" VALUE_15="151.824341"/>
-   <Rm2DTextureVariable NAME="bump" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\AmbientOcclusion_1024.dds" ORIGIN="0"/>
+   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="-1.429617" VALUE_1="-0.166248" VALUE_2="0.466792" VALUE_3="0.000000" VALUE_4="-0.254281" VALUE_5="2.399587" VALUE_6="0.075840" VALUE_7="0.000231" VALUE_8="0.310402" VALUE_9="0.002816" VALUE_10="0.951654" VALUE_11="189.637909" VALUE_12="0.310092" VALUE_13="0.002813" VALUE_14="0.950702" VALUE_15="190.448273"/>
+   <RmFloatVariable NAME="sinTime" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="SinTime0_X" VALUE="-0.152773" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
    <Rm2DTextureVariable NAME="base" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\Coin.dds" ORIGIN="0"/>
    <Rm2DTextureVariable NAME="FireBase" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\FireBase.tga" ORIGIN="0"/>
+   <Rm2DTextureVariable NAME="bump" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\AmbientOcclusion_1024.dds" ORIGIN="0"/>
    <RmStreamMap NAME="Stream Mapping" API="">
     <RmStream NAME="Stream" API="" STRIDE="32">
      <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
@@ -1050,6 +1051,7 @@ void main(void)
 uniform mat4 mvp;
 uniform sampler2D displacementTexture;
 uniform float displacementIntensity;
+uniform float sinTime;
 
 out vec2 v_texCoords;
 out float v_height;
@@ -1057,7 +1059,7 @@ out float v_height;
 void main(void)
 {
    v_texCoords = gl_MultiTexCoord0.xy;
-   v_height = texture(displacementTexture, v_texCoords).r;
+   v_height = texture(displacementTexture, v_texCoords * sinTime).r;
    gl_Position = mvp * (gl_Vertex + vec4(gl_Normal, 1.0) * v_height * displacementIntensity);
 }]]></RmShaderCode></RmGLShader>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
@@ -1076,6 +1078,7 @@ void main(void)
     <RmSampler NAME="fireTexture" API="" REGISTER="-1"/>
     <RmShaderConstant NAME="displacementIntensity" API="" REGISTER="-1"/>
     <RmShaderConstant NAME="mvp" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="sinTime" API="" REGISTER="-1"/>
    </RmGLPass>
   </RmOpenGLEffect>
  </RmEffectWorkspace>
