@@ -1011,7 +1011,7 @@ Pass 2]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-26/11/2016 16:4:45]]></RmTextDataBlock></RmStringVariable>
+26/11/2016 16:12:1]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1023,7 +1023,7 @@ P:\workspace\RenderMonkey_shaders\]]></RmTextDataBlock></RmStringVariable>
   </RmRegistryBranch>
   <RmOpenGLEffect NAME="Default_OpenGL_Effect" API="OpenGL" ACTIVE_CAMERA="Camera">
    <RmCamera NAME="fixedCamera" API="" CAMERA_POSITION_X="0.000000" CAMERA_POSITION_Y="0.000000" CAMERA_POSITION_Z="-200.000000" LOOK_AT_VECTOR_X="0.000000" LOOK_AT_VECTOR_Y="0.000000" LOOK_AT_VECTOR_Z="0.000000" UP_VECTOR_X="0.000000" UP_VECTOR_Y="1.000000" UP_VECTOR_Z="0.000000" FOV="45.000000" NEAR_CLIP_PLANE="1.000000" FAR_CLIP_PLANE="1000.000000"/>
-   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="-0.874276" VALUE_1="-0.604812" VALUE_2="-0.193576" VALUE_3="0.000000" VALUE_4="0.346314" VALUE_5="-1.167751" VALUE_6="2.084431" VALUE_7="-0.000073" VALUE_8="0.570480" VALUE_9="-0.673540" VALUE_10="-0.472122" VALUE_11="4.021202" VALUE_12="0.569909" VALUE_13="-0.672867" VALUE_14="-0.471650" VALUE_15="5.017180"/>
+   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="1.034944" VALUE_1="-0.129020" VALUE_2="-0.282621" VALUE_3="0.000000" VALUE_4="0.094748" VALUE_5="2.306708" VALUE_6="-0.706079" VALUE_7="-0.000005" VALUE_8="-0.285107" VALUE_9="-0.270124" VALUE_10="-0.920733" VALUE_11="2.880457" VALUE_12="-0.284822" VALUE_13="-0.269854" VALUE_14="-0.919813" VALUE_15="3.877577"/>
    <Rm2DTextureVariable NAME="base" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\Coin.dds" ORIGIN="0"/>
    <Rm2DTextureVariable NAME="bump" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\bump.png" ORIGIN="0"/>
    <RmRenderableTexture NAME="fbo0" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
@@ -1084,31 +1084,9 @@ in vec2 v_position;
 
 out vec4 color;
 
-vec4 getNeighborPixel(vec2 offset) 
-{
-   return texture(previousFrame, v_position.xy + offset);
-}
-
-vec4 convolutionAverage(void) 
-{
-   vec4 sum = vec4(0.0f);
-   float offset1D = 0.01f; //!\\
-   
-   sum += getNeighborPixel(vec2(offset1D, 0));
-   sum += getNeighborPixel(vec2(offset1D, offset1D));
-   sum += getNeighborPixel(vec2(0, offset1D));
-   sum += getNeighborPixel(vec2(-offset1D, offset1D));
-   sum += getNeighborPixel(vec2(-offset1D, 0));
-   sum += getNeighborPixel(vec2(-offset1D, -offset1D));
-   sum += getNeighborPixel(vec2(0, -offset1D));
-   sum += getNeighborPixel(vec2(offset1D, -offset1D));
-   
-   return sum / 9.0f;
-}
-
 void main(void)
 {
-   color = convolutionAverage();
+   color = texture(previousFrame, v_position.xy);
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
 #version 150 compatibility
