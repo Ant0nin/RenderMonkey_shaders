@@ -909,7 +909,7 @@
   <RmRegistryBranch NAME="RM_REGISTRY" API="" XML_VERSION="RenderMonkey 1.71">
    <RmRegistryBranch NAME="RM_LOCAL" API="" XML_VERSION="RenderMonkey 1.71">
     <RmRegistryBranch NAME="RM_PLUGIN" API="" XML_VERSION="RenderMonkey 1.71"><RmTextDataBlock TYPE="TEXT"><![CDATA[
-<DockingPaneLayouts><Application_Layout><Pane-1><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>2</Pane-1><Pane-2>3</Pane-2><Pane-3>4</Pane-3><Pane-4>5</Pane-4><Pane-5>6</Pane-5><Pane-6>7</Pane-6><Pane-7>8</Pane-7><Pane-8>9</Pane-8><Pane-9>10</Pane-9><Pane-10>11</Pane-10><Pane-11>12</Pane-11><Panes>11</Panes></Pane-1><Pane-2><Type>1</Type><DockingCX>220</DockingCX><DockingCY>319</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-5><Pane-6><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-6><Pane-7><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-7><Pane-8><Type>1</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-8><Pane-9><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-9><Pane-10><Type>1</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-10><Pane-11><Type>1</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-11><Pane-12><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>13</Pane-1><Panes>1</Panes></Pane-12><Pane-13><Type>2</Type><DockingCX>0</DockingCX><DockingCY>622</DockingCY><Horiz>1</Horiz><Pane-1>14</Pane-1><Pane-2>16</Pane-2><Panes>2</Panes></Pane-13><Pane-14><Type>1</Type><DockingCX>287</DockingCX><DockingCY>250</DockingCY><Selected>15</Selected><Panes>1</Panes><Pane-1>15</Pane-1></Pane-14><Pane-15><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>14</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>14</LastHolder></Pane-15><Pane-16><Type>2</Type><DockingCX>1629</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>17</Pane-1><Panes>1</Panes></Pane-16><Pane-17><Type>2</Type><DockingCX>0</DockingCX><DockingCY>600</DockingCY><Horiz>1</Horiz><Pane-1>18</Pane-1><Panes>1</Panes></Pane-17><Pane-18><Type>2</Type><DockingCX>697</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>19</Pane-1><Panes>1</Panes></Pane-18><Pane-19><Type>2</Type><DockingCX>0</DockingCX><DockingCY>417</DockingCY><Horiz>1</Horiz><Pane-1>20</Pane-1><Panes>1</Panes></Pane-19><Pane-20><Type>2</Type><DockingCX>1501</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>21</Pane-1><Panes>1</Panes></Pane-20><Pane-21><Type>2</Type><DockingCX>0</DockingCX><DockingCY>638</DockingCY><Horiz>1</Horiz><Pane-1>22</Pane-1><Panes>1</Panes></Pane-21><Pane-22><Type>2</Type><DockingCX>1331</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>23</Pane-1><Pane-2>27</Pane-2><Panes>2</Panes></Pane-22><Pane-23><Type>2</Type><DockingCX>0</DockingCX><DockingCY>638</DockingCY><Horiz>1</Horiz><Pane-1>24</Pane-1><Pane-2>25</Pane-2><Panes>2</Panes></Pane-23><Pane-24><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-24><Pane-25><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>26</Selected><Panes>1</Panes><Pane-1>26</Pane-1></Pane-25><Pane-26><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>25</DockingHolder><FloatingHolder>68</FloatingHolder><LastHolder>25</LastHolder></Pane-26><Pane-27><Type>1</Type><DockingCX>357</DockingCX><DockingCY>291</DockingCY><Selected>28</Selected><Panes>1</Panes><Pane-1>28</Pane-1></Pane-27><Pane-28><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>27</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>27</LastHolder></Pane-28><Pane-29><Type>0</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Title>col</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>11</DockingHolder><FloatingHolder>32</FloatingHolder><LastHolder>32</LastHolder></Pane-29><Pane-30><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>31</TopContaner><WindowRectTopPos>342</WindowRectTopPos><WindowRectBottomPos>535</WindowRectBottomPos><WindowRectLeftPos>368</WindowRectLeftPos><WindowRectRightPos>750</WindowRectRightPos></Pane-30><Pane-31><Type>2</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Horiz>1</Horiz><Pane-1>32</Pane-1><Panes>1</Panes></Pane-31><Pane-32><Type>1</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-32><Pane-33><Type>0</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Title>col</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>10</DockingHolder><FloatingHolder>36</FloatingHolder><LastHolder>36</LastHolder></Pane-33><Pane-34><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>35</TopContaner><WindowRectTopPos>154</WindowRectTopPos><WindowRectBottomPos>465</WindowRectBottomPos><WindowRectLeftPos>194</WindowRectLeftPos><WindowRectRightPos>395</WindowRectRightPos></Pane-34><Pane-35><Type>2</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Horiz>1</Horiz><Pane-1>36</Pane-1><Panes>1</Panes></Pane-35><Pane-36><Type>1</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-36><Pane-37><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>myColor</Title><ID>1102</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>9</DockingHolder><FloatingHolder>40</FloatingHolder><LastHolder>40</LastHolder></Pane-37><Pane-38><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>39</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-38><Pane-39><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>40</Pane-1><Panes>1</Panes></Pane-39><Pane-40><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-40><Pane-41><Type>0</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Title>f4x4MyMatrix</Title><ID>1103</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>8</DockingHolder><FloatingHolder>44</FloatingHolder><LastHolder>44</LastHolder></Pane-41><Pane-42><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>43</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>245</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>424</WindowRectRightPos></Pane-42><Pane-43><Type>2</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Horiz>1</Horiz><Pane-1>44</Pane-1><Panes>1</Panes></Pane-43><Pane-44><Type>1</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-44><Pane-45><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>objectColor</Title><ID>1104</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>48</FloatingHolder><LastHolder>48</LastHolder></Pane-45><Pane-46><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>47</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-46><Pane-47><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>48</Pane-1><Panes>1</Panes></Pane-47><Pane-48><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-48><Pane-49><Type>5</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Direction>1</Direction><Panes>0</Panes></Pane-49><Pane-50><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>lightColor</Title><ID>1105</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>6</DockingHolder><FloatingHolder>53</FloatingHolder><LastHolder>53</LastHolder></Pane-50><Pane-51><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>52</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-51><Pane-52><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>53</Pane-1><Panes>1</Panes></Pane-52><Pane-53><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-53><Pane-54><Type>0</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Title>lightPos</Title><ID>1106</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>5</DockingHolder><FloatingHolder>57</FloatingHolder><LastHolder>57</LastHolder></Pane-54><Pane-55><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>56</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>200</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>339</WindowRectRightPos></Pane-55><Pane-56><Type>2</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Horiz>1</Horiz><Pane-1>57</Pane-1><Panes>1</Panes></Pane-56><Pane-57><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-57><Pane-58><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>kd</Title><ID>1107</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>61</FloatingHolder><LastHolder>61</LastHolder></Pane-58><Pane-59><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>60</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>435</WindowRectRightPos></Pane-59><Pane-60><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>61</Pane-1><Panes>1</Panes></Pane-60><Pane-61><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-61><Pane-62><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>bumpQuantity</Title><ID>1108</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>65</FloatingHolder><LastHolder>65</LastHolder></Pane-62><Pane-63><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>64</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>435</WindowRectRightPos></Pane-63><Pane-64><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>65</Pane-1><Panes>1</Panes></Pane-64><Pane-65><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-65><Pane-66><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>67</TopContaner><WindowRectTopPos>108</WindowRectTopPos><WindowRectBottomPos>1041</WindowRectBottomPos><WindowRectLeftPos>1462</WindowRectLeftPos><WindowRectRightPos>1649</WindowRectRightPos></Pane-66><Pane-67><Type>2</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Horiz>1</Horiz><Pane-1>68</Pane-1><Panes>1</Panes></Pane-67><Pane-68><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-68><Pane-69><Type>0</Type><DockingCX>220</DockingCX><DockingCY>319</DockingCY><Title>skybox</Title><ID>1109</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>2</DockingHolder><FloatingHolder>72</FloatingHolder><LastHolder>72</LastHolder></Pane-69><Pane-70><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>71</TopContaner><WindowRectTopPos>167</WindowRectTopPos><WindowRectBottomPos>486</WindowRectBottomPos><WindowRectLeftPos>109</WindowRectLeftPos><WindowRectRightPos>329</WindowRectRightPos></Pane-70><Pane-71><Type>2</Type><DockingCX>220</DockingCX><DockingCY>319</DockingCY><Horiz>1</Horiz><Pane-1>72</Pane-1><Panes>1</Panes></Pane-71><Pane-72><Type>1</Type><DockingCX>220</DockingCX><DockingCY>319</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-72><Summary><TopContainer>1</TopContainer><Client>24</Client><Panes>72</Panes></Summary></Application_Layout></DockingPaneLayouts>
+<DockingPaneLayouts><Application_Layout><Pane-1><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>2</Pane-1><Pane-2>3</Pane-2><Pane-3>4</Pane-3><Pane-4>5</Pane-4><Pane-5>6</Pane-5><Pane-6>7</Pane-6><Pane-7>8</Pane-7><Pane-8>9</Pane-8><Pane-9>10</Pane-9><Pane-10>11</Pane-10><Pane-11>12</Pane-11><Panes>11</Panes></Pane-1><Pane-2><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-5><Pane-6><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-6><Pane-7><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-7><Pane-8><Type>1</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-8><Pane-9><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-9><Pane-10><Type>1</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-10><Pane-11><Type>1</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-11><Pane-12><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>13</Pane-1><Panes>1</Panes></Pane-12><Pane-13><Type>2</Type><DockingCX>0</DockingCX><DockingCY>622</DockingCY><Horiz>1</Horiz><Pane-1>14</Pane-1><Pane-2>16</Pane-2><Panes>2</Panes></Pane-13><Pane-14><Type>1</Type><DockingCX>224</DockingCX><DockingCY>250</DockingCY><Selected>15</Selected><Panes>1</Panes><Pane-1>15</Pane-1></Pane-14><Pane-15><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>14</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>14</LastHolder></Pane-15><Pane-16><Type>2</Type><DockingCX>1692</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>17</Pane-1><Panes>1</Panes></Pane-16><Pane-17><Type>2</Type><DockingCX>0</DockingCX><DockingCY>600</DockingCY><Horiz>1</Horiz><Pane-1>18</Pane-1><Panes>1</Panes></Pane-17><Pane-18><Type>2</Type><DockingCX>697</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>19</Pane-1><Panes>1</Panes></Pane-18><Pane-19><Type>2</Type><DockingCX>0</DockingCX><DockingCY>417</DockingCY><Horiz>1</Horiz><Pane-1>20</Pane-1><Pane-2>24</Pane-2><Panes>2</Panes></Pane-19><Pane-20><Type>2</Type><DockingCX>1501</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>21</Pane-1><Pane-2>22</Pane-2><Panes>2</Panes></Pane-20><Pane-21><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-21><Pane-22><Type>1</Type><DockingCX>725</DockingCX><DockingCY>291</DockingCY><Selected>23</Selected><Panes>1</Panes><Pane-1>23</Pane-1></Pane-22><Pane-23><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>22</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>22</LastHolder></Pane-23><Pane-24><Type>2</Type><DockingCX>187</DockingCX><DockingCY>250</DockingCY><Horiz>1</Horiz><Pane-1>25</Pane-1><Panes>1</Panes></Pane-24><Pane-25><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>26</Selected><Panes>1</Panes><Pane-1>26</Pane-1></Pane-25><Pane-26><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>25</DockingHolder><FloatingHolder>29</FloatingHolder><LastHolder>25</LastHolder></Pane-26><Pane-27><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>28</TopContaner><WindowRectTopPos>331</WindowRectTopPos><WindowRectBottomPos>657</WindowRectBottomPos><WindowRectLeftPos>1321</WindowRectLeftPos><WindowRectRightPos>1672</WindowRectRightPos></Pane-27><Pane-28><Type>2</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Horiz>1</Horiz><Pane-1>29</Pane-1><Panes>1</Panes></Pane-28><Pane-29><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-29><Pane-30><Type>0</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Title>col</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>11</DockingHolder><FloatingHolder>33</FloatingHolder><LastHolder>33</LastHolder></Pane-30><Pane-31><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>32</TopContaner><WindowRectTopPos>342</WindowRectTopPos><WindowRectBottomPos>535</WindowRectBottomPos><WindowRectLeftPos>368</WindowRectLeftPos><WindowRectRightPos>750</WindowRectRightPos></Pane-31><Pane-32><Type>2</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Horiz>1</Horiz><Pane-1>33</Pane-1><Panes>1</Panes></Pane-32><Pane-33><Type>1</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-33><Pane-34><Type>0</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Title>col</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>10</DockingHolder><FloatingHolder>37</FloatingHolder><LastHolder>37</LastHolder></Pane-34><Pane-35><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>36</TopContaner><WindowRectTopPos>154</WindowRectTopPos><WindowRectBottomPos>465</WindowRectBottomPos><WindowRectLeftPos>194</WindowRectLeftPos><WindowRectRightPos>395</WindowRectRightPos></Pane-35><Pane-36><Type>2</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Horiz>1</Horiz><Pane-1>37</Pane-1><Panes>1</Panes></Pane-36><Pane-37><Type>1</Type><DockingCX>201</DockingCX><DockingCY>311</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-37><Pane-38><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>myColor</Title><ID>1102</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>9</DockingHolder><FloatingHolder>41</FloatingHolder><LastHolder>41</LastHolder></Pane-38><Pane-39><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>40</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-39><Pane-40><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>41</Pane-1><Panes>1</Panes></Pane-40><Pane-41><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-41><Pane-42><Type>0</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Title>f4x4MyMatrix</Title><ID>1103</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>8</DockingHolder><FloatingHolder>45</FloatingHolder><LastHolder>45</LastHolder></Pane-42><Pane-43><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>44</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>245</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>424</WindowRectRightPos></Pane-43><Pane-44><Type>2</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Horiz>1</Horiz><Pane-1>45</Pane-1><Panes>1</Panes></Pane-44><Pane-45><Type>1</Type><DockingCX>424</DockingCX><DockingCY>223</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-45><Pane-46><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>objectColor</Title><ID>1104</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>49</FloatingHolder><LastHolder>49</LastHolder></Pane-46><Pane-47><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>48</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-47><Pane-48><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>49</Pane-1><Panes>1</Panes></Pane-48><Pane-49><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-49><Pane-50><Type>5</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Direction>1</Direction><Panes>0</Panes></Pane-50><Pane-51><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>lightColor</Title><ID>1105</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>6</DockingHolder><FloatingHolder>54</FloatingHolder><LastHolder>54</LastHolder></Pane-51><Pane-52><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>53</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-52><Pane-53><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>54</Pane-1><Panes>1</Panes></Pane-53><Pane-54><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-54><Pane-55><Type>0</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Title>lightPos</Title><ID>1106</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>5</DockingHolder><FloatingHolder>58</FloatingHolder><LastHolder>58</LastHolder></Pane-55><Pane-56><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>57</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>200</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>339</WindowRectRightPos></Pane-56><Pane-57><Type>2</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Horiz>1</Horiz><Pane-1>58</Pane-1><Panes>1</Panes></Pane-57><Pane-58><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-58><Pane-59><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>kd</Title><ID>1107</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>62</FloatingHolder><LastHolder>62</LastHolder></Pane-59><Pane-60><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>61</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>435</WindowRectRightPos></Pane-60><Pane-61><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>62</Pane-1><Panes>1</Panes></Pane-61><Pane-62><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-62><Pane-63><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>shadowColor</Title><ID>1108</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>66</FloatingHolder><LastHolder>66</LastHolder></Pane-63><Pane-64><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>65</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-64><Pane-65><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>66</Pane-1><Panes>1</Panes></Pane-65><Pane-66><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-66><Pane-67><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>shineColor</Title><ID>1109</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>2</DockingHolder><FloatingHolder>70</FloatingHolder><LastHolder>70</LastHolder></Pane-67><Pane-68><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>69</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-68><Pane-69><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>70</Pane-1><Panes>1</Panes></Pane-69><Pane-70><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-70><Summary><TopContainer>1</TopContainer><Client>21</Client><Panes>70</Panes></Summary></Application_Layout></DockingPaneLayouts>
 ]]></RmTextDataBlock>
      <RmRegistryBranch NAME="RmStreamEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect.Stream Mapping" API="" XML_VERSION="RenderMonkey 1.71">
@@ -929,11 +929,11 @@
      <RmRegistryBranch NAME="RmPreviewGLWindow" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EffectPlacementRepository" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="752" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="119" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="554" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="426" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="812" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="85" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="671" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="450" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="3" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -956,9 +956,9 @@
       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Fragment Program]]></RmTextDataBlock></RmStringVariable>
+Vertex Program]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Pass 0]]></RmTextDataBlock></RmStringVariable>
+Pass 2]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="26" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1141" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="588" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -970,22 +970,24 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
       </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmRenderStateBlockEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
+      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect.Pass 0.Render State" API="" XML_VERSION="RenderMonkey 1.71"/>
+      </RmRegistryBranch>
+      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="24" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="201" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1293" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="408" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="581" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
+      </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmTextureObjectEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
-      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="200" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="200" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1167" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="408" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
-      </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmTessellationNodeEditorDlg" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
@@ -1008,17 +1010,10 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
      <RmRegistryBranch NAME="RmScalarEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
      </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmTextureViewer" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.skybox" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1109" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
-      </RmRegistryBranch>
-     </RmRegistryBranch>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-28/11/2016 10:49:15]]></RmTextDataBlock></RmStringVariable>
+28/11/2016 12:6:37]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1028,17 +1023,17 @@ P:\workspace\RenderMonkey_shaders\]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
    </RmRegistryBranch>
   </RmRegistryBranch>
-  <RmOpenGLEffect NAME="Default_OpenGL_Effect" API="OpenGL" ACTIVE_CAMERA="Camera">
-   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="-0.380717" VALUE_1="0.006586" VALUE_2="-1.693791" VALUE_3="0.000000" VALUE_4="0.430294" VALUE_5="2.373946" VALUE_6="-0.087487" VALUE_7="-0.000102" VALUE_8="-0.960200" VALUE_9="0.182023" VALUE_10="0.216534" VALUE_11="219.994370" VALUE_12="-0.959240" VALUE_13="0.181841" VALUE_14="0.216318" VALUE_15="220.774384"/>
-   <RmFloatVariable NAME="shiness" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="0.500000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
-   <RmDynamicVariable NAME="cameraPos" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
+  <RmOpenGLEffect NAME="Default_OpenGL_Effect" API="OpenGL" ACTIVE_CAMERA="">
+   <RmMatrixVariable NAME="mvp" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="0.395270" VALUE_1="0.337213" VALUE_2="-0.834645" VALUE_3="0.000000" VALUE_4="-1.948439" VALUE_5="1.377664" VALUE_6="-0.366134" VALUE_7="0.002095" VALUE_8="-0.432868" VALUE_9="-0.746881" VALUE_10="-0.506752" VALUE_11="340.588562" VALUE_12="-0.432436" VALUE_13="-0.746134" VALUE_14="-0.506245" VALUE_15="341.247986"/>
+   <RmDynamicVariable NAME="lightPos" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
     <RmDynamicVariableValueContainer>
-     <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="0.000000"/>
-     <RmDynamicVariableValue ROW_INDEX="1" COLUMN_INDEX="0" VALUE="0.000000"/>
-     <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="0.000000"/>
+     <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="0.280000"/>
+     <RmDynamicVariableValue ROW_INDEX="1" COLUMN_INDEX="0" VALUE="0.460000"/>
+     <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="0.200000"/>
     </RmDynamicVariableValueContainer>
    </RmDynamicVariable>
-   <RmMatrixVariable NAME="matWorld" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="World" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="0.000000" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
+   <RmMatrixVariable NAME="mv" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldView" VALUE_0="0.402044" VALUE_1="0.342993" VALUE_2="-0.848950" VALUE_3="0.000000" VALUE_4="-0.807070" VALUE_5="0.570647" VALUE_6="-0.151658" VALUE_7="0.000868" VALUE_8="0.432436" VALUE_9="0.746134" VALUE_10="0.506245" VALUE_11="-341.247986" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
+   <Rm2DTextureVariable NAME="baseTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME=".\textures\ground001.tga" ORIGIN="0"/>
    <RmStreamMap NAME="Stream Mapping" API="">
     <RmStream NAME="Stream" API="" STRIDE="32">
      <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
@@ -1046,67 +1041,172 @@ P:\workspace\RenderMonkey_shaders\]]></RmTextDataBlock></RmStringVariable>
      <RmStreamChannel NAME="TexCoord_0" API="" DATA_SIZE="8" DATA_TYPE="1" REGISTER="0" USAGE="5" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_TexCoord0"/>
     </RmStream>
    </RmStreamMap>
-   <RmModelData NAME="ElephantBody" API="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\ElephantBody.3ds" ORIENTATION="0"/>
-   <RmGLPass NAME="Pass 0" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
-    <RmModelReference NAME="ElephantBody" API=""/>
+   <RmModelData NAME="Bunny" API="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\bunny.obj" ORIENTATION="0"/>
+   <RmGLPass NAME="Pass 2" API="OpenGL" PASS_INDEX="2" ENABLED="TRUE">
+    <RmModelReference NAME="Bunny" API=""/>
+    <RmRenderStateBlock NAME="Render State" API="OpenGL">
+     <RmState NAME="GL_BlendEnable" API="OpenGL" STATE="46" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendEquation" API="OpenGL" STATE="52" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendSourceAlpha" API="OpenGL" STATE="50" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendSourceRGB" API="OpenGL" STATE="48" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendDestAlpha" API="OpenGL" STATE="51" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendDestRGB" API="OpenGL" STATE="49" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_DepthEnable" API="OpenGL" STATE="44" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_DepthFunction" API="OpenGL" STATE="45" VALUE="4" USAGE="RENDER_STATE"/>
+    </RmRenderStateBlock>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
-#version 330 core
+#version 150 compatibility
 
-uniform sampler2D baseTexture;
-uniform samplerCube cubemapTexture;
 uniform vec3 cameraPos;
-uniform float shiness;
+uniform vec3 lightPos;
 
-in vec2 v_texCoords;
+uniform float ks;
+uniform vec4 shineColor;
+uniform float alpha;
+
 in vec3 v_normal;
 in vec3 v_position;
+in vec3 v_view;
 
 out vec4 color;
 
+float phong_specular()
+{
+   vec3 L = normalize(v_position - lightPos);
+   vec3 R = 2 * dot(v_normal, L) * v_normal - L;
+   return pow(max(dot(v_view, R), 0), alpha);
+}
+
 void main(void)
 {
-   float alpha = shiness;
-   float beta = 1 - alpha;
-   
-   vec3 V = normalize(v_position - cameraPos);
-   vec3 R = reflect(V,  normalize(v_normal));
-   
-   color = alpha * texture(baseTexture, v_texCoords)
-         + beta * texture(cubemapTexture, R);
+   color = ks * phong_specular() * shineColor;
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
 #version 150 compatibility
 
 uniform mat4 mvp;
-uniform mat4 matWorld;
+uniform mat4 mv;
 
-out vec2 v_texCoords;
+out vec3 v_normal;
+out vec3 v_position;
+out vec3 v_view;
+
+void main(void)
+{ 
+   gl_Position = mvp * gl_Vertex;
+   v_normal = gl_Normal;
+   v_position = gl_Vertex.xyz;
+   v_view = -normalize(vec3(mv * gl_Vertex));
+}]]></RmShaderCode></RmGLShader>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmFloatVariable NAME="alpha" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="2.000000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+    <RmBooleanVariable NAME="enableBlinn" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="FALSE"/>
+    <RmFloatVariable NAME="ks" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="0.300000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+    <RmColorVariable NAME="shineColor" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE_0="1.000000" VALUE_1="1.000000" VALUE_2="1.000000" VALUE_3="1.000000"/>
+    <RmShaderConstant NAME="ks" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="lightPos" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="mv" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="mvp" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="shineColor" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="alpha" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="Pass 0" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
+    <RmModelReference NAME="Bunny" API=""/>
+    <RmRenderStateBlock NAME="Render State" API="OpenGL">
+     <RmState NAME="GL_BlendEnable" API="OpenGL" STATE="46" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendEquation" API="OpenGL" STATE="52" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendSourceAlpha" API="OpenGL" STATE="50" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendSourceRGB" API="OpenGL" STATE="48" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendDestAlpha" API="OpenGL" STATE="51" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendDestRGB" API="OpenGL" STATE="49" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_DepthEnable" API="OpenGL" STATE="44" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_DepthFunction" API="OpenGL" STATE="45" VALUE="4" USAGE="RENDER_STATE"/>
+    </RmRenderStateBlock>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+#version 150 compatibility
+
+uniform vec4 baseColor;
+uniform float ka;
+
+out vec4 color;
+
+void main(void)
+{
+   color = ka * baseColor;
+}
+]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+#version 150 compatibility
+
+uniform mat4 mvp;
+
+void main(void)
+{ 
+   gl_Position = mvp * gl_Vertex;
+}]]></RmShaderCode></RmGLShader>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmFloatVariable NAME="ka" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="0.300000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+    <RmColorVariable NAME="baseColor" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE_0="0.515789" VALUE_1="0.589474" VALUE_2="0.484211" VALUE_3="0.357895"/>
+    <RmShaderConstant NAME="baseColor" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="ka" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="mvp" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="Pass 1" API="OpenGL" PASS_INDEX="1" ENABLED="TRUE">
+    <RmModelReference NAME="Bunny" API=""/>
+    <RmRenderStateBlock NAME="Render State" API="OpenGL">
+     <RmState NAME="GL_BlendEnable" API="OpenGL" STATE="46" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendEquation" API="OpenGL" STATE="52" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendSourceAlpha" API="OpenGL" STATE="50" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendSourceRGB" API="OpenGL" STATE="48" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendDestAlpha" API="OpenGL" STATE="51" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_BlendDestRGB" API="OpenGL" STATE="49" VALUE="2" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_DepthEnable" API="OpenGL" STATE="44" VALUE="1" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_DepthFunction" API="OpenGL" STATE="45" VALUE="4" USAGE="RENDER_STATE"/>
+    </RmRenderStateBlock>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+#version 150 compatibility
+
+uniform vec3 lightPos;
+uniform float kd;
+uniform vec4 shadowColor;
+
+in vec3 v_normal;
+in vec3 v_position;
+
+out vec4 color;
+
+float phong_diffuse()
+{
+   vec3 L = normalize(v_position - lightPos);
+   return max(dot(L, v_normal), 0);
+}
+
+void main(void)
+{
+   color = kd * phong_diffuse() * shadowColor;
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+#version 150 compatibility
+
+uniform mat4 mvp;
+
 out vec3 v_normal;
 out vec3 v_position;
 
 void main(void)
-{
+{ 
    gl_Position = mvp * gl_Vertex;
-   v_texCoords = gl_MultiTexCoord0.xy;
-   v_position = vec3(matWorld * gl_Vertex);
    v_normal = gl_Normal;
+   v_position = gl_Vertex.xyz;
 }]]></RmShaderCode></RmGLShader>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
-    <RmTextureObject NAME="cubemapTexture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="skybox" API=""/>
-    </RmTextureObject>
-    <RmTextureObject NAME="baseTexture" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="Coin" API=""/>
-    </RmTextureObject>
-    <RmSampler NAME="baseTexture" API="" REGISTER="-1"/>
-    <RmSampler NAME="cubemapTexture" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="cameraPos" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="matWorld" API="" REGISTER="-1"/>
+    <RmFloatVariable NAME="kd" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE="0.300000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+    <RmColorVariable NAME="shadowColor" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE_0="0.584314" VALUE_1="0.585185" VALUE_2="0.585185" VALUE_3="1.000000"/>
+    <RmShaderConstant NAME="kd" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="lightPos" API="" REGISTER="-1"/>
     <RmShaderConstant NAME="mvp" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="shiness" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="shadowColor" API="" REGISTER="-1"/>
    </RmGLPass>
   </RmOpenGLEffect>
-  <Rm2DTextureVariable NAME="skybox" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME=".\textures\skybox.tga" ORIGIN="0"/>
-  <Rm2DTextureVariable NAME="Coin" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\Coin.dds" ORIGIN="0"/>
  </RmEffectWorkspace>
 </RENDER_MONKEY>
